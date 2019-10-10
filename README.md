@@ -1,1 +1,0 @@
-# jamesperalta.github.io
