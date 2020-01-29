@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+/* Navigation Bar Styling*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    border-width: 5px;
+    border-color: white;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 10px 0px 0px;
+    height: 100%;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+nav ul li a {
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #555555;
+}
+
+nav ul li .active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    height: 100%;
+}
+
+/* Project section styling*/
+section {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+section table tbody tr {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+section table tbody tr td {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+section table tbody tr td img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-width: 0px;
+}
+section table tbody tr td p {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+}
