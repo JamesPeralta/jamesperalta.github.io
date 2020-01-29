@@ -2,7 +2,10 @@ body {
     margin: 0;
 }
 
-/* Navigation Bar Styling*/
+/*
+___________Navigation Bar Styling______________
+*/
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -60,7 +63,10 @@ nav ul li .active {
     height: 100%;
 }
 
-/* Project section styling*/
+/*
+_____________Project section styling_______________
+*/
+
 section {
     display: flex;
     height: 500px;
@@ -93,3 +99,56 @@ section table tbody tr td p {
     font-size: 25px;
     color: white;
 }
+
+/*
+____________Classes section styling______________
+*/
+
+.classes-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.classes-table {
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+.classes-list th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+}
+
+.classes-list td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5px;
+}
+
+.classes-list tr {
+    height: 43px;
+}
+
+.year-row {
+    background-color: #edbeec;
+}
+
+.season-col {
+    background-color: #ff8f8f;
+}
+
+/* About Me styling*/
