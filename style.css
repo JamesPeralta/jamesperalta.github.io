@@ -40,9 +40,13 @@ nav ul li {
     height: 100%;
 }
 nav ul li a {
+    display: flex;
     padding: 0 10px;
     color: white;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 nav ul li:hover{
     background-color: #555555;
