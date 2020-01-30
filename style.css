@@ -151,7 +151,7 @@ ____________Classes section styling______________
     background-color: #ff8f8f;
 }
 
-/* About Me styling*/
+/* Experience styling*/
 
 .about-me-div {
     display: flex;
@@ -170,7 +170,7 @@ hr {
 }
 
 .about-me h2 {
-    font-size: 15px;
+    font-size: 17px;
 }
 .about-me div {
     display: flex;
@@ -188,4 +188,41 @@ hr {
 
 .about-me li {
     margin: 5px 0px;
+    font-family: 'Rubik', sans-serif;
 }
+
+.about-me img {
+    height: 35px;
+    width: 35px;
+    margin: 0px 5px;
+}
+
+.about-me h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+}
+
+.resume-banner {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+.resume-banner.childNodes {
+    margin: 0;
+    flex-direction: row;
+}
+
+.header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-position.childNodes {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Experience styling*/
