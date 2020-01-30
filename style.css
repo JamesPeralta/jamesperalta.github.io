@@ -103,7 +103,22 @@ section table tbody tr td p {
 /*
 ____________Classes section styling______________
 */
+.classes-banner {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+.classes-banner-banner {
+    display: flex;
+    flex-direction: row;
+}
 
+.classes-banner img {
+    width: 35px;
+    height: 35px;
+}
 .classes-list {
     display: flex;
     justify-content: center;
@@ -205,12 +220,12 @@ hr {
 }
 
 .resume-banner {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 0;
-    justify-content: center;
-    margin-bottom: -15px;
-}
+     display: flex;
+     flex-direction: row;
+     flex-grow: 0;
+     justify-content: center;
+     margin-bottom: -15px;
+ }
 
 .resume-banner.childNodes {
     margin: 0;
@@ -228,7 +243,7 @@ hr {
 }
 
 /*
-____________ Experience styling______________
+____________ Reading list styling______________
 */
 .reading-row {
     display: flex;
