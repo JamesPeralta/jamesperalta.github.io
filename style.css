@@ -116,7 +116,7 @@ ____________Classes section styling______________
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    margin: 30px;
+    margin: 30px 0px 0px 0px;
     border-collapse: collapse;
 }
 
@@ -246,3 +246,7 @@ ____________ Experience styling______________
     width: 220px;
 }
 
+.reading-row img:hover {
+    height: 340px;
+    width: 260px;
+}
