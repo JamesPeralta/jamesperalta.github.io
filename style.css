@@ -80,7 +80,11 @@ section table tbody tr {
     flex-direction: row;
 }
 
-section table tbody tr td {
+.projects-table-row {
+    margin: 25px 0px 0px 0px;
+}
+
+.projects-table-row td {
     display: flex;
     width: 300px;
     height: 200px;
@@ -90,14 +94,15 @@ section table tbody tr td {
 }
 section table tbody tr td img {
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 180px;
+    width: 280px;
     border-width: 0px;
 }
-section table tbody tr td p {
-    position: absolute;
-    font-size: 25px;
-    color: white;
+
+.project-div {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
