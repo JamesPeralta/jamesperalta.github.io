@@ -113,12 +113,19 @@ ____________Classes section styling______________
 .classes-banner-banner {
     display: flex;
     flex-direction: row;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .classes-banner img {
     width: 35px;
     height: 35px;
+    margin: 0px 1px;
 }
+
+.classes-banner-banner .header-image {
+    margin: 0px 20px;
+}
+
 .classes-list {
     display: flex;
     justify-content: center;
