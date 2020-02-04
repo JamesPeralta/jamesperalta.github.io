@@ -104,12 +104,16 @@ section table tbody tr td img {
     height: 180px;
     width: 280px;
     border-width: 0px;
+    margin-bottom: 10px;
 }
 
 .project-div {
     text-align: center;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+.project-div a {
+    padding: 30px;
 }
 
 /*
